@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Ananya Prabhu</title>
+    <meta
+      name="description"
+      content="Ananya Prabhu, data engineer working on AI and sensing. Real-time radar tracking, explainable AI and data pipelines."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- visitor stats (GoatCounter: no cookies, so no cookie banner needed) -->
+    <script
+      data-goatcounter="https://YOUR-CODE.goatcounter.com/count"
+      async
+      src="https://gc.zgo.at/count.js"
+    ></script>
+  </head>
+
+  <body>
+    <header class="menubar">
+      <div class="wrap">
+        <a class="logo" href="#top"><i></i>AnanyaOS</a>
+        <nav aria-label="Sections">
+          <a href="#research">Research</a>
+          <a href="#journey">Journey</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="https://arxiv.org/abs/2610.39628">Paper</a>
+          <a class="pill" href="resume.pdf">Résumé</a>
+        </nav>
+        <div class="clock" id="clock"></div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- hero: the radar room runs on its own in the background -->
+      <div class="stage">
+        <canvas
+          id="room"
+          aria-label="A room with three ceiling radar sensors tracking a person made of radar points"
+        ></canvas>
+        <div class="scrim"></div>
+        <div class="tag3d" id="ptag">P1</div>
+
+        <div class="overlay">
+          <div class="wrap">
+            <div class="intro">
+              <p class="mono">Data Engineering &amp; AI · Tampere, Finland</p>
+              <h1>Ananya<br />Prabhu</h1>
+              <p class="role">Data engineer working on AI and sensing</p>
+              <p class="summary">
+                I'm a Data Engineering and AI graduate who likes working close
+                to real-world data: noisy sensor streams, medical images, and
+                everything between raw input and a dashboard people can use. I
+                learn new fields by building in them, and I care about AI
+                results that can be explained.
+              </p>
+              <div class="cta">
+                <a class="btn primary" href="#projects">See my work</a>
+                <button class="btn" type="button" id="heroAsk">
+                  Ask my assistant
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="caption mono">Simulated radar point cloud · 3 sensors</p>
+      </div>
+
+      <div class="wrap">
+        <!-- quick highlights, details live in the books -->
+        <section class="highlights" id="research" aria-label="Highlights">
+          <div class="highlight">
+            <span class="mono">Paper</span>
+            <p>
+              First author, submitted to IEEE Sensors Letters.
+              <a href="https://arxiv.org/abs/2610.39628">Preprint on arXiv</a>
+            </p>
+          </div>
+          <div class="highlight">
+            <span class="mono">Research</span>
+            <p>
+              Real-time radar tracking with three ceiling sensors at Tampere
+              University.
+            </p>
+          </div>
+          <div class="highlight">
+            <span class="mono">Thesis</span>
+            <p>
+              Explainable AI for emotion classification, using LIME and SHAP.
+            </p>
+          </div>
+          <div class="highlight">
+            <span class="mono">Available</span>
+            <p>From January 2027, in Finland or anywhere in Europe.</p>
+          </div>
+        </section>
+
+        <section class="journey" id="journey">
+          <p class="mono">Journey</p>
+          <h2>From student to researcher</h2>
+
+          <ol class="path">
+            <li>
+              <p class="mono">Jan – Mar 2025</p>
+              <h3>Health Tech intern</h3>
+              <p class="org">INSIGHT Lab, Turku UAS</p>
+              <p>
+                Brain-imaging datasets into BIDS, preprocessing pipelines and
+                federated learning across sites.
+              </p>
+            </li>
+            <li>
+              <p class="mono">2025</p>
+              <h3>Project manager</h3>
+              <p class="org">Capstone for INSIGHT Lab</p>
+              <p>
+                Led planning, team coordination and documentation for a
+                federated learning dashboard.
+              </p>
+            </li>
+            <li>
+              <p class="mono">June 2026</p>
+              <h3>B.Eng., Data Engineering &amp; AI</h3>
+              <p class="org">Turku UAS</p>
+              <p>
+                Graduated with a thesis on explainable AI using LIME and SHAP.
+              </p>
+            </li>
+            <li class="now">
+              <p class="mono">Mar 2026 – now</p>
+              <h3>Research intern</h3>
+              <p class="org">Tampere University, Pori</p>
+              <p>Real-time radar tracking and a first-author paper.</p>
+            </li>
+          </ol>
+
+          <ul class="skills" aria-label="Core skills">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Airflow</li>
+            <li>Kafka</li>
+            <li>MQTT</li>
+            <li>PostgreSQL</li>
+            <li>Docker</li>
+            <li>scikit-learn</li>
+            <li>PyTorch</li>
+            <li>TensorFlow</li>
+            <li>SHAP · LIME</li>
+            <li>Power BI</li>
+            <li>React</li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="library" id="projects">
+        <div class="wrap">
+          <p class="mono">Projects</p>
+          <h2>The library</h2>
+          <p class="lead">
+            Every book is a project, with the demo playing on the cover. Pick
+            one up for the full story.
+          </p>
+          <div class="shelf" id="shelf"></div>
+        </div>
+      </section>
+
+      <div class="wrap">
+        <section class="contact" id="contact">
+          <p class="mono">Contact</p>
+          <div class="contact-grid">
+            <div>
+              <h2>Open to data and AI roles</h2>
+              <p class="lead">
+                Based in Tampere, available from January 2027. Open to on-site,
+                hybrid and remote roles, and to relocating within Europe.
+              </p>
+              <div class="mail">
+                <code id="mail">ananyaprabhu753@gmail.com</code>
+                <button type="button" id="copyMail">Copy email</button>
+              </div>
+            </div>
+            <div class="links">
+              <a href="https://linkedin.com/in/ananya-prabhu-870b59271"
+                ><span>LinkedIn</span><span>↗</span></a
+              >
+              <a href="https://github.com/AnanyaPrabhu27"
+                ><span>GitHub</span><span>↗</span></a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="wrap mono">© 2026 Ananya Prabhu</div>
+    </footer>
+
+    <!-- opened book (project details) -->
+    <dialog id="book" aria-labelledby="bookTitle">
+      <div class="spread">
+        <div class="page-left" id="bookMedia"></div>
+        <div class="page-right">
+          <p class="mono" id="bookMeta"></p>
+          <h3 id="bookTitle"></h3>
+          <p id="bookBody"></p>
+          <ul id="bookPoints"></ul>
+          <div class="stack" id="bookStack"></div>
+          <div class="book-foot">
+            <span id="bookLink"></span>
+            <button class="close" type="button" id="bookClose">
+              Close book
+            </button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- hidden copy of the assistant's email form, so Netlify knows the form exists -->
+    <form
+      name="follow-up"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="email" name="email" />
+      <input type="text" name="name" />
+      <textarea name="message"></textarea>
+      <input type="text" name="asked" />
+      <input type="text" name="page" />
+      <input type="text" name="bot-field" />
+    </form>
+
+    <!-- assistant -->
+    <button
+      class="launcher"
+      id="launcher"
+      type="button"
+      aria-expanded="false"
+      aria-controls="assistant"
+    >
+      <i></i>Ask about my work
+    </button>
+    <div
+      class="assistant"
+      id="assistant"
+      role="dialog"
+      aria-label="Assistant"
+      hidden
+    >
+      <div class="titlebar">
+        <span class="light pink"></span><span class="light peach"></span
+        ><span class="light lilac"></span>
+        <strong>Assistant · AnanyaOS</strong>
+        <button type="button" id="assistantClose">Close</button>
+      </div>
+      <div class="chat-log" id="chatLog" aria-live="polite"></div>
+      <div class="suggestions" id="suggestions"></div>
+      <form class="ask" id="askForm">
+        <input
+          id="askInput"
+          type="text"
+          placeholder="Ask about projects, availability, visa…"
+          autocomplete="off"
+          aria-label="Your question"
+        />
+        <button type="submit">Ask</button>
+      </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/answers.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/assistant.js"></script>
+    <script src="js/radar-room.js"></script>
+  </body>
+</html>
